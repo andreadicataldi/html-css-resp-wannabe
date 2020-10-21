@@ -125,7 +125,7 @@ img {
 }
 
 /* MEDIA QUERY FOR TABLETS */
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 420px) and (max-width: 990px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -139,7 +139,7 @@ img {
   }
 
   img {
-    height: 150px;
+    height: 120px;
   }
 
   h1 {
