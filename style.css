@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/* MEDIA QUERY FOR MOBILES */
 @media screen and (max-width: 420px) {
   * {
     box-sizing: border-box;
@@ -122,3 +123,64 @@ img {
     width: 100%;
   }
 }
+
+/* MEDIA QUERY FOR TABLETS */
+@media screen and (max-width: 770px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 38px;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  div {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  hr {
+    margin-top: 15px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+  }
+
+  #steps .row>.right {
+    width: 100%;
+    margin: auto;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+  }
+}
+/*         _
+       .__(.)< Styled with <3
+        \___) by Andrea Di Cataldi
+ ~~~~~~~~~~~~~~~~~~-*/
